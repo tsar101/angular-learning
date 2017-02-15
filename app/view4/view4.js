@@ -2,21 +2,35 @@
 
 angular.module('CarousalDemo', ['ngRoute'])
 
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view4', {
+.config(['$routeProvider',function($routeProvider) {
+  $routeProvider.when('/view4/:productCode', {
     templateUrl: 'view4/view4.html',
     controller: 'CarouselDemoCtrl'
   });
 }])
 
-.controller('CarouselDemoCtrl', ['$scope',function ($scope) {
+.controller('CarouselDemoCtrl', ['$scope','$http', '$routeParams',function ($scope,$http,$routeParams) {
   $scope.myInterval = 5000;
   $scope.noWrapSlides = false;
   $scope.active = 0;
   var slides = $scope.slides = [];
+  var product = $scope.product = {} ;    
   var currIndex = 0;
+  var self = $scope;    
+  $http.get('products/' + $routeParams.productCode + '.json').then(function(response) {
+          product = response.data;
+          for (var i = 0; i < product.images.length ; i++) {
+                self.slides.push({
+                        image: product.images[i],
+                        text: ['Nice image','Awesome photograph','That is so cool','I love that'][slides.length % 4],
+                        id: currIndex++
+                });
+            }      
+    });
+  
+    
 
-  $scope.addSlide = function() {
+    $scope.addSlide = function() {
     var newWidth = 600 + slides.length + 1;
     slides.push({
       image: '//unsplash.it/' + newWidth + '/300',
@@ -31,7 +45,7 @@ angular.module('CarousalDemo', ['ngRoute'])
   };
 
   for (var i = 0; i < 4; i++) {
-    $scope.addSlide();
+    //$scope.addSlide();
   }
 
   // Randomize logic below

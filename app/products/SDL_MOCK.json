@@ -1,0 +1,1241 @@
+{
+  "supc": "SDL020248575",
+  "vipDeatils": [
+    {
+      "vendorCode": "5640b4",
+      "supc": "SDL020248575",
+      "inventory": 150,
+      "inventorySold": 56,
+      "price": 9999,
+      "initialPrice": null,
+      "sellingPrice": 6500,
+      "minSellingPrice": null,
+      "shippingCharges": 0,
+      "enabled": true,
+      "procurementSla": 4,
+      "warehouseProcessingSla": 4,
+      "vendorSku": "SKUTAN-11122013",
+      "created": 1386658130000,
+      "updated": 1482922201000,
+      "inventoryLastUpdated": 1472813673000,
+      "pricingLastUpdated": 1386659197000,
+      "serviceabilityIndex": 0,
+      "manualOverride": false,
+      "brandSponsored": false,
+      "extCashbackDisplayType": "PCT",
+      "extCashbackVendorComponent": 637,
+      "extCashbackSnapdealComponent": 13,
+      "extCashbackStartTime": 1372617000000,
+      "extCashbackEndTime": 1582655400000,
+      "intCashbackDisplayType": "ABS",
+      "intCashbackVendorComponent": 10,
+      "intCashbackSnapdealComponent": 10,
+      "intCashbackStartTime": 1372617000000,
+      "intCashbackEndTime": 1582655400000,
+      "emiChargesSnapdealComponent": null,
+      "comments": null,
+      "freebies": [],
+      "mlpEnabled": false,
+      "effectiveMinSellingPrice": 650,
+      "effectiveSellingPrice": 5830,
+      "internalCashbackAbsoluteValue": 20,
+      "externalCashbackAbsoluteValue": 650,
+      "availableInventory": 94,
+      "showRoomPrice": null,
+      "walletCashbackDisplayType": null,
+      "walletCashbackVendorComponent": null,
+      "walletCashbackSnapdealComponent": null,
+      "walletCashbackStartTime": null,
+      "walletCashbackEndTime": null,
+      "walletCashbackSource": null,
+      "walletCashbackAbsoluteValue": null,
+      "customServiceCharge": null,
+      "pincode": "110001",
+      "softDisable": false
+    },
+    {
+      "vendorCode": "5948a4",
+      "supc": "SDL020248575",
+      "inventory": 6,
+      "inventorySold": 6,
+      "price": 9999,
+      "initialPrice": null,
+      "sellingPrice": 8000,
+      "minSellingPrice": null,
+      "shippingCharges": 0,
+      "enabled": false,
+      "procurementSla": 0,
+      "warehouseProcessingSla": 0,
+      "vendorSku": "SKUTAN-13122013",
+      "created": 1386658127000,
+      "updated": 1468409195000,
+      "inventoryLastUpdated": 1468409195000,
+      "pricingLastUpdated": 1455378231000,
+      "serviceabilityIndex": 0,
+      "manualOverride": false,
+      "brandSponsored": false,
+      "extCashbackDisplayType": null,
+      "extCashbackVendorComponent": null,
+      "extCashbackSnapdealComponent": null,
+      "extCashbackStartTime": null,
+      "extCashbackEndTime": null,
+      "intCashbackDisplayType": "ABS",
+      "intCashbackVendorComponent": 10,
+      "intCashbackSnapdealComponent": 10,
+      "intCashbackStartTime": 1372617000000,
+      "intCashbackEndTime": 1582655400000,
+      "emiChargesSnapdealComponent": null,
+      "comments": null,
+      "freebies": [],
+      "mlpEnabled": false,
+      "effectiveMinSellingPrice": 800,
+      "effectiveSellingPrice": 7480,
+      "internalCashbackAbsoluteValue": 20,
+      "externalCashbackAbsoluteValue": 0,
+      "availableInventory": 0,
+      "showRoomPrice": null,
+      "walletCashbackDisplayType": "ABS",
+      "walletCashbackVendorComponent": 440,
+      "walletCashbackSnapdealComponent": 60,
+      "walletCashbackStartTime": 1446402600000,
+      "walletCashbackEndTime": 1512153000000,
+      "walletCashbackSource": "IPMS Cashback task",
+      "walletCashbackAbsoluteValue": 500,
+      "customServiceCharge": null,
+      "pincode": "414141",
+      "softDisable": false
+    },
+    {
+      "vendorCode": "86da89",
+      "supc": "SDL020248575",
+      "inventory": 1000,
+      "inventorySold": 55,
+      "price": 9999,
+      "initialPrice": null,
+      "sellingPrice": 7500,
+      "minSellingPrice": null,
+      "shippingCharges": 0,
+      "enabled": true,
+      "procurementSla": 2,
+      "warehouseProcessingSla": 2,
+      "vendorSku": "SKUTAN-15122013",
+      "created": 1386658132000,
+      "updated": 1470840263000,
+      "inventoryLastUpdated": 1398060481000,
+      "pricingLastUpdated": 1386659198000,
+      "serviceabilityIndex": 0,
+      "manualOverride": false,
+      "brandSponsored": false,
+      "extCashbackDisplayType": "PCT",
+      "extCashbackVendorComponent": 735,
+      "extCashbackSnapdealComponent": 15,
+      "extCashbackStartTime": 1372617000000,
+      "extCashbackEndTime": 1582655400000,
+      "intCashbackDisplayType": "ABS",
+      "intCashbackVendorComponent": 10,
+      "intCashbackSnapdealComponent": 10,
+      "intCashbackStartTime": 1372617000000,
+      "intCashbackEndTime": 1582655400000,
+      "emiChargesSnapdealComponent": null,
+      "comments": null,
+      "freebies": [],
+      "mlpEnabled": false,
+      "effectiveMinSellingPrice": 750,
+      "effectiveSellingPrice": 6730,
+      "internalCashbackAbsoluteValue": 20,
+      "externalCashbackAbsoluteValue": 750,
+      "availableInventory": 945,
+      "showRoomPrice": null,
+      "walletCashbackDisplayType": null,
+      "walletCashbackVendorComponent": null,
+      "walletCashbackSnapdealComponent": null,
+      "walletCashbackStartTime": null,
+      "walletCashbackEndTime": null,
+      "walletCashbackSource": null,
+      "walletCashbackAbsoluteValue": null,
+      "customServiceCharge": null,
+      "pincode": "414141",
+      "softDisable": false
+    },
+    {
+      "vendorCode": "9f80a5",
+      "supc": "SDL020248575",
+      "inventory": 1000,
+      "inventorySold": 30,
+      "price": 9999,
+      "initialPrice": null,
+      "sellingPrice": 7000,
+      "minSellingPrice": null,
+      "shippingCharges": 0,
+      "enabled": true,
+      "procurementSla": 1,
+      "warehouseProcessingSla": 1,
+      "vendorSku": "SKUTAN-14122013",
+      "created": 1386658133000,
+      "updated": 1466691116000,
+      "inventoryLastUpdated": 1459744740000,
+      "pricingLastUpdated": 1386659199000,
+      "serviceabilityIndex": 0,
+      "manualOverride": false,
+      "brandSponsored": false,
+      "extCashbackDisplayType": "PCT",
+      "extCashbackVendorComponent": 686,
+      "extCashbackSnapdealComponent": 14,
+      "extCashbackStartTime": 1372617000000,
+      "extCashbackEndTime": 1582655400000,
+      "intCashbackDisplayType": "ABS",
+      "intCashbackVendorComponent": 1372,
+      "intCashbackSnapdealComponent": 28,
+      "intCashbackStartTime": 1372617000000,
+      "intCashbackEndTime": 1582655400000,
+      "emiChargesSnapdealComponent": null,
+      "comments": null,
+      "freebies": [],
+      "mlpEnabled": false,
+      "effectiveMinSellingPrice": 700,
+      "effectiveSellingPrice": 4900,
+      "internalCashbackAbsoluteValue": 1400,
+      "externalCashbackAbsoluteValue": 700,
+      "availableInventory": 0,
+      "showRoomPrice": null,
+      "walletCashbackDisplayType": null,
+      "walletCashbackVendorComponent": null,
+      "walletCashbackSnapdealComponent": null,
+      "walletCashbackStartTime": null,
+      "walletCashbackEndTime": null,
+      "walletCashbackSource": null,
+      "walletCashbackAbsoluteValue": null,
+      "customServiceCharge": null,
+      "pincode": "414141",
+      "softDisable": false
+    },
+    {
+      "vendorCode": "a6f14d",
+      "supc": "SDL020248575",
+      "inventory": 0,
+      "inventorySold": 0,
+      "price": 9999,
+      "initialPrice": null,
+      "sellingPrice": 7900,
+      "minSellingPrice": null,
+      "shippingCharges": 0,
+      "enabled": true,
+      "procurementSla": 5,
+      "warehouseProcessingSla": 6,
+      "vendorSku": "SKUTAN-12122013",
+      "created": 1386658129000,
+      "updated": 1468409196000,
+      "inventoryLastUpdated": 1468409196000,
+      "pricingLastUpdated": 1386659196000,
+      "serviceabilityIndex": 0,
+      "manualOverride": false,
+      "brandSponsored": false,
+      "extCashbackDisplayType": "PCT",
+      "extCashbackVendorComponent": 774.2,
+      "extCashbackSnapdealComponent": 15.8,
+      "extCashbackStartTime": 1372617000000,
+      "extCashbackEndTime": 1582655400000,
+      "intCashbackDisplayType": "ABS",
+      "intCashbackVendorComponent": 1548.4,
+      "intCashbackSnapdealComponent": 31.6,
+      "intCashbackStartTime": 1372617000000,
+      "intCashbackEndTime": 1582655400000,
+      "emiChargesSnapdealComponent": null,
+      "comments": null,
+      "freebies": [],
+      "mlpEnabled": false,
+      "effectiveMinSellingPrice": 790,
+      "effectiveSellingPrice": 5530,
+      "internalCashbackAbsoluteValue": 1580,
+      "externalCashbackAbsoluteValue": 790,
+      "availableInventory": 0,
+      "showRoomPrice": null,
+      "walletCashbackDisplayType": null,
+      "walletCashbackVendorComponent": null,
+      "walletCashbackSnapdealComponent": null,
+      "walletCashbackStartTime": null,
+      "walletCashbackEndTime": null,
+      "walletCashbackSource": null,
+      "walletCashbackAbsoluteValue": null,
+      "customServiceCharge": null,
+      "pincode": "414141",
+      "softDisable": false
+    },
+    {
+      "vendorCode": "aace21",
+      "supc": "SDL020248575",
+      "inventory": 1000,
+      "inventorySold": 45,
+      "price": 10000,
+      "initialPrice": null,
+      "sellingPrice": 9100,
+      "minSellingPrice": 8000,
+      "shippingCharges": 434,
+      "enabled": false,
+      "procurementSla": 1,
+      "warehouseProcessingSla": 0,
+      "vendorSku": "1",
+      "created": 1411373073000,
+      "updated": 1482544963000,
+      "inventoryLastUpdated": 1458714944000,
+      "pricingLastUpdated": 1469086369000,
+      "serviceabilityIndex": 0,
+      "manualOverride": false,
+      "brandSponsored": false,
+      "extCashbackDisplayType": null,
+      "extCashbackVendorComponent": null,
+      "extCashbackSnapdealComponent": null,
+      "extCashbackStartTime": null,
+      "extCashbackEndTime": null,
+      "intCashbackDisplayType": null,
+      "intCashbackVendorComponent": null,
+      "intCashbackSnapdealComponent": null,
+      "intCashbackStartTime": null,
+      "intCashbackEndTime": null,
+      "emiChargesSnapdealComponent": null,
+      "comments": null,
+      "freebies": [],
+      "mlpEnabled": false,
+      "effectiveMinSellingPrice": 8000,
+      "effectiveSellingPrice": 8934,
+      "internalCashbackAbsoluteValue": null,
+      "externalCashbackAbsoluteValue": 0,
+      "availableInventory": 0,
+      "showRoomPrice": null,
+      "walletCashbackDisplayType": "ABS",
+      "walletCashbackVendorComponent": 540,
+      "walletCashbackSnapdealComponent": 60,
+      "walletCashbackStartTime": 1446402600000,
+      "walletCashbackEndTime": 1512153000000,
+      "walletCashbackSource": "IPMS Cashback task",
+      "walletCashbackAbsoluteValue": 600,
+      "customServiceCharge": null,
+      "pincode": "414141",
+      "softDisable": false
+    },
+    {
+      "vendorCode": "b56f58",
+      "supc": "SDL020248575",
+      "inventory": 73,
+      "inventorySold": 72,
+      "price": 32000,
+      "initialPrice": 3,
+      "sellingPrice": 7500,
+      "minSellingPrice": null,
+      "shippingCharges": 0,
+      "enabled": true,
+      "procurementSla": 1,
+      "warehouseProcessingSla": 2,
+      "vendorSku": "Est-23-04-101",
+      "created": 1366699605000,
+      "updated": 1483153908000,
+      "inventoryLastUpdated": 1468583731000,
+      "pricingLastUpdated": 1468593490000,
+      "serviceabilityIndex": 0,
+      "manualOverride": false,
+      "brandSponsored": false,
+      "extCashbackDisplayType": null,
+      "extCashbackVendorComponent": null,
+      "extCashbackSnapdealComponent": null,
+      "extCashbackStartTime": null,
+      "extCashbackEndTime": null,
+      "intCashbackDisplayType": null,
+      "intCashbackVendorComponent": null,
+      "intCashbackSnapdealComponent": null,
+      "intCashbackStartTime": null,
+      "intCashbackEndTime": null,
+      "emiChargesSnapdealComponent": null,
+      "comments": null,
+      "freebies": [],
+      "mlpEnabled": false,
+      "effectiveMinSellingPrice": 750,
+      "effectiveSellingPrice": 7500,
+      "internalCashbackAbsoluteValue": null,
+      "externalCashbackAbsoluteValue": 0,
+      "availableInventory": 1,
+      "showRoomPrice": null,
+      "walletCashbackDisplayType": null,
+      "walletCashbackVendorComponent": null,
+      "walletCashbackSnapdealComponent": null,
+      "walletCashbackStartTime": null,
+      "walletCashbackEndTime": null,
+      "walletCashbackSource": null,
+      "walletCashbackAbsoluteValue": null,
+      "customServiceCharge": null,
+      "pincode": "414141",
+      "softDisable": false
+    },
+    {
+      "vendorCode": "b82f06",
+      "supc": "SDL020248575",
+      "inventory": 21,
+      "inventorySold": 21,
+      "price": 9999,
+      "initialPrice": null,
+      "sellingPrice": 6000,
+      "minSellingPrice": null,
+      "shippingCharges": 0,
+      "enabled": true,
+      "procurementSla": 3,
+      "warehouseProcessingSla": 3,
+      "vendorSku": "SKUTAN-10122013",
+      "created": 1386658125000,
+      "updated": 1481888302000,
+      "inventoryLastUpdated": 1468308496000,
+      "pricingLastUpdated": 1386659195000,
+      "serviceabilityIndex": 0,
+      "manualOverride": false,
+      "brandSponsored": false,
+      "extCashbackDisplayType": "PCT",
+      "extCashbackVendorComponent": 588,
+      "extCashbackSnapdealComponent": 12,
+      "extCashbackStartTime": 1372617000000,
+      "extCashbackEndTime": 1582655400000,
+      "intCashbackDisplayType": "ABS",
+      "intCashbackVendorComponent": 1176,
+      "intCashbackSnapdealComponent": 24,
+      "intCashbackStartTime": 1372617000000,
+      "intCashbackEndTime": 1582655400000,
+      "emiChargesSnapdealComponent": null,
+      "comments": null,
+      "freebies": [],
+      "mlpEnabled": false,
+      "effectiveMinSellingPrice": 600,
+      "effectiveSellingPrice": 4200,
+      "internalCashbackAbsoluteValue": 1200,
+      "externalCashbackAbsoluteValue": 600,
+      "availableInventory": 0,
+      "showRoomPrice": null,
+      "walletCashbackDisplayType": null,
+      "walletCashbackVendorComponent": null,
+      "walletCashbackSnapdealComponent": null,
+      "walletCashbackStartTime": null,
+      "walletCashbackEndTime": null,
+      "walletCashbackSource": null,
+      "walletCashbackAbsoluteValue": null,
+      "customServiceCharge": null,
+      "pincode": "414141",
+      "softDisable": false
+    }
+  ],
+  "brand": {
+        "id": 25641,
+        "name": "EstBrand2",
+        "description": "abcd",
+        "pageUrl": "estbrand2",
+        "enabled": true,
+        "resellerEnabled": false,
+        "logoImages": [
+          "img/brand/logo/2013-04-17-05-11-29-beer.jpg"
+        ],
+        "brandVisible": true
+      },    
+  "bucket": {
+    "id": 1300,
+    "name": "ComputersLaptops",
+    "labelNames": [
+      "computers-laptops"
+    ],
+    "enabled": false,
+    "filterSROs": [
+      {
+        "name": "Screen Size",
+        "filterName": "Screen_Size_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 0,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "EXL",
+            "displayName": "Exclusively",
+            "sequence": 1,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "indian",
+              "global"
+            ]
+          },
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NameofFilter22",
+        "filterName": "AttributCheck22_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NameofFilterNotAppear",
+        "filterName": "AttributCheckNotAppear_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NameofFilter",
+        "filterName": "AttributCheck_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brand",
+        "filterName": "Brand",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1,
+        "categoryId": null,
+        "searchable": true,
+        "expandable": true,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hard Disk Capacity",
+        "filterName": "Hard_Disk_Capacity_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": true,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Memory (RAM)",
+        "filterName": "Memory_RAM_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Operating System",
+        "filterName": "Operating_System_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": true,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Price",
+        "filterName": "Price",
+        "displayType": "rangeSlider",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1,
+        "categoryId": null,
+        "searchable": true,
+        "expandable": true,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "couponsss",
+        "filterName": "Discount_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 2,
+        "categoryId": null,
+        "searchable": true,
+        "expandable": false,
+        "invisible": true,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MyNiceDeal",
+        "filterName": "Occasion_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 2,
+        "categoryId": null,
+        "searchable": true,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Availability",
+        "filterName": "isSoldOut",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 2,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Processor",
+        "filterName": "newFilterName_s",
+        "displayType": "radio",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 2,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Promotional Filter",
+        "filterName": "promoFilter",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 2,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": true,
+        "invisible": true,
+        "tenants": [
+          {
+            "code": "EXL",
+            "displayName": "Exclusively",
+            "sequence": 1,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "indian",
+              "global"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Discount % percentage",
+        "filterName": "discount",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 502,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": true,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "sellerName",
+        "filterName": "sellerName",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 752,
+        "categoryId": null,
+        "searchable": true,
+        "expandable": true,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Camera",
+        "filterName": "Camera_s",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 877,
+        "categoryId": null,
+        "searchable": true,
+        "expandable": true,
+        "invisible": true,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "dimension_s",
+        "filterName": "dimension_s",
+        "displayType": "radio",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 939,
+        "categoryId": null,
+        "searchable": true,
+        "expandable": true,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FULFILLED BY",
+        "filterName": "sdFullfilled",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 970,
+        "categoryId": null,
+        "searchable": true,
+        "expandable": true,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rating",
+        "filterName": "avgRating",
+        "displayType": "radio",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1002,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FMCG",
+        "filterName": "FMCG",
+        "displayType": "radio",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1004,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": true,
+        "tenants": [
+          {
+            "code": "EXL",
+            "displayName": "Exclusively",
+            "sequence": 1,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "indian",
+              "global"
+            ]
+          },
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ABCD",
+        "filterName": "ABCD",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1007,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": true,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SDInstant",
+        "filterName": "SDInstant",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1008,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": true,
+        "tenants": [
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SD Gold",
+        "filterName": "sdGold",
+        "displayType": "checkBox",
+        "isAttribute": false,
+        "attributeName": null,
+        "priority": 1009,
+        "categoryId": null,
+        "searchable": false,
+        "expandable": false,
+        "invisible": false,
+        "tenants": [
+          {
+            "code": "EXL",
+            "displayName": "Exclusively",
+            "sequence": 1,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "indian",
+              "global"
+            ]
+          },
+          {
+            "code": "SDL",
+            "displayName": "Snapdeal",
+            "sequence": 0,
+            "currentChannel": null,
+            "allPossibleChannels": [
+              "web",
+              "app",
+              "msite"
+            ]
+          }
+        ]
+      }
+    ],
+    "labelNamesWrtTenants": {
+      "{\"code\":\"EXL\",\"displayName\":\"Exclusively\",\"sequence\":1,\"currentChannel\":null,\"allPossibleChannels\":[\"indian\",\"global\"]}": [
+        "computers-laptops"
+      ],
+      "{\"code\":\"SDL\",\"displayName\":\"Snapdeal\",\"sequence\":0,\"currentChannel\":null,\"allPossibleChannels\":[\"web\",\"app\",\"msite\"]}": [
+        "computers-laptops"
+      ]
+    },
+    "created": 1406119055000,
+    "updated": 1486893649867,
+    "isKeyValuePairEditEnabled": true,
+    "productTypeName": "TG-Frocks & Dresses",
+    "productTypeId": 2530
+  },
+  "supcQsScore": null,
+  "filterValues": [
+                        {
+                            "bucketId": 834, 
+                            "filterName": "Type_s", 
+                            "name": "Type", 
+                            "value": "Art & Craft Accessories"
+                        }
+                    ], 
+                    "filterValuesBktWise": {
+                        "834": [
+                            {
+                                "bucketId": 834, 
+                                "filterName": "Type_s", 
+                                "name": "Type", 
+                                "value": "Art & Craft Accessories"
+                            }
+                        ]
+                    },
+  "images": [
+    "imgs/a/a/u/CA_200_20V_M_1_2x-7c612.jpg"
+  ],
+  "productStatus": "ACTIVE",
+  "productState": "BUY_NOW",
+  "catalogStatus": "ACTIVE",
+  "metaDataList": [
+    {
+      "attributeName": "Model Specification",
+      "value": "This model (height 6', chest 40\\\", and waist 34\\\") is wearing size M",
+      "priority": 2,
+      "id": 3,
+      "attributeDisplayName": "Model Specification"
+    },
+    {
+      "attributeName": "Age",
+      "value": null,
+      "priority": 0,
+      "id": 12279,
+      "attributeDisplayName": "Age"
+    },
+    {
+      "attributeName": "Sleeves",
+      "value": null,
+      "priority": 0,
+      "id": 12280,
+      "attributeDisplayName": "Sleeves"
+    },
+    {
+      "attributeName": "Length",
+      "value": null,
+      "priority": 0,
+      "id": 12281,
+      "attributeDisplayName": "Length"
+    },
+    {
+      "attributeName": "Season",
+      "value": null,
+      "priority": 0,
+      "id": 12282,
+      "attributeDisplayName": "Season"
+    },
+    {
+      "attributeName": "Wearability",
+      "value": null,
+      "priority": 0,
+      "id": 12283,
+      "attributeDisplayName": "Wearability"
+    },
+    {
+      "attributeName": "Wash Care",
+      "value": null,
+      "priority": 0,
+      "id": 12284,
+      "attributeDisplayName": "Wash Care"
+    },
+    {
+      "attributeName": "Disclaimer",
+      "value": null,
+      "priority": 0,
+      "id": 12285,
+      "attributeDisplayName": "Disclaimer"
+    },
+    {
+      "attributeName": "Fabric",
+      "value": null,
+      "priority": 0,
+      "id": 12286,
+      "attributeDisplayName": "Fabric"
+    },
+    {
+      "attributeName": "Type",
+      "value": null,
+      "priority": 0,
+      "id": 12289,
+      "attributeDisplayName": "Type"
+    },
+    {
+      "attributeName": "Discount % percentage",
+      "value": null,
+      "priority": 0,
+      "id": 12290,
+      "attributeDisplayName": "Discount % percentage"
+    },
+    {
+      "attributeName": "Operating System",
+      "value": null,
+      "priority": 0,
+      "id": 12291,
+      "attributeDisplayName": "Operating System"
+    },
+    {
+      "attributeName": "dimension_s",
+      "value": null,
+      "priority": 0,
+      "id": 12292,
+      "attributeDisplayName": "dimension_s"
+    },
+    {
+      "attributeName": "FULFILLED BY",
+      "value": null,
+      "priority": 0,
+      "id": 12293,
+      "attributeDisplayName": "FULFILLED BY"
+    }
+  ],
+  "attributes": [
+    {
+      "attributeName": "Size",
+      "value": "L",
+      "priority": 0,
+      "id": 1,
+      "attributeDisplayName": "Size"
+    },
+    {
+      "attributeName": "Color",
+      "value": "Red",
+      "priority": 1,
+      "id": 2,
+      "attributeDisplayName": "Color"
+    }
+  ],
+  "supcs": [
+    "SDL020025576",
+    "SDL020248575",
+    "SDL020350487"
+  ],
+    "category": {
+    "id": 151,
+    "name": "Mouse",
+    "pageUrl": "computers-mouse",
+    "parentCategoryId": 21,
+    "parentCategoryName": "Computers & Peripherals",
+    "parentCategoryPageUrl": "computers",
+    "visible": true,
+    "filters": []
+  }
+}

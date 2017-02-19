@@ -16,12 +16,14 @@ angular.module('CarousalDemo', ['ngRoute'])
   var slides = $scope.slides = [];
   var product = $scope.product = {} ;    
   var currIndex = 0;
-  var self = $scope;    
+  var self = $scope;
+  self.inputSUPC = $routeParams.productCode;
   $http.get('products/' + $routeParams.productCode + '.json').then(function(response) {
-          product = response.data;
+          self.product = response.data;
+          var product = self.product;
           for (var i = 0; i < product.images.length ; i++) {
                 self.slides.push({
-                        image: product.images[i],
+                        image: "https://n3.sdlcdn.com/"+product.images[i],
                         text: ['Nice image','Awesome photograph','That is so cool','I love that'][slides.length % 4],
                         id: currIndex++
                 });

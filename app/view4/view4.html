@@ -3,7 +3,8 @@
       <div>
          <div class="row">
             <div class="col-lg-6">
-               <button type="button" class="btn btn-info" ng-click="addSlide()">Add Slide</button>
+               <div style="display:none">
+                <button type="button" class="btn btn-info" ng-click="addSlide()">Add Slide</button>
                <button type="button" class="btn btn-info" ng-click="randomize()">Randomize slides</button>
                <div class="checkbox">
                   <label>
@@ -15,6 +16,14 @@
                   <input type="number" class="form-control" ng-model="myInterval">
                   <br />Enter a negative number or 0 to stop the interval.
                </div>
+                </div>       
+                    
+                    <div uib-alert type="{{alert.type || 'danger' }}" ng-show="product.productStatus!='ACTIVE'" >Product Status is {{product.productStatus}}  </div>
+                    <div uib-alert type="{{alert.type || 'danger' }}" ng-show="product.productState!='BUY_NOW'" >Product State is {{product.productState}}  </div>
+                    <div uib-alert type="{{alert.type || 'danger' }}" ng-show="product.catalogStatus!='ACTIVE'" >Catalog Status is {{product.catalogStatus}}  </div>
+                     <div uib-alert type="{{alert.type || 'danger' }}" ng-show="!product.bucket.enabled" >Bucket is disabled </div>   
+                
+                
                <div class="input-group">
                   <span class="input-group-addon">SUPC</span>
                   <input id="inputSUPC" type="text" class="form-control" name="SUPC" placeholder="Enter the SUPC" ng-model="inputSUPC" uib-tooltip="Currently works only with SDL199586080 & SDL241107246 !"
@@ -22,6 +31,16 @@
                      tooltip-trigger="mouseenter" >
                   <a type="button" class="btn btn-default" ng-href="#!/view4/{{inputSUPC}}" value="" >Fetch Details !</a>
                </div>
+                <br>
+                <div class="input-group">
+                   <a type="button" class="btn btn-default" ng-repeat="supc in product.supcs" ng-href="#!/view4/{{supc}}" value="" >{{supc}}</a>
+                </div>
+                
+                <p class="text-info">Bucket Name : {{product.bucket.name}}</p>
+                <p class="text-info">Product Type : {{product.bucket.productTypeName}}</p>
+                <p class="text-info">Bucket Labels : {{product.bucket.labelNames}} </p>
+                <p class="text-info">Brand Name : {{product.brand.name}} </p>
+                <p class="text-info">Category is <span class = "bg-primary">{{product.category.name}}</span> and parent category is <span class = "bg-primary">{{product.category.parentCategoryName}}</span></p>
             </div>
             <div class="col-lg-6">
                <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
@@ -35,6 +54,95 @@
                </div>
             </div>
          </div>
+      <uib-accordion close-others="true">
+            <div uib-accordion-group class="panel-default" heading="IPMS Details">
+            <table class="table table-striped table-bordered">
+                <tr>
+                    <th>SUPC</th>
+                    <th>Vendor Code</th>
+                    <th>Enabled</th>
+                    <th>Total Inventory</th>
+                    <th>Inventory Sold</th>
+                    <th>Avaiulable Inventory</th>
+                    <th>Soft Disable</th>
+                    <th>Comments</th>
+                    <th>Inv Last Updated</th>
+                    <th>Pri Last Updated</th>
+                </tr>
+                <tr ng-repeat="vendor in product.vipDeatils" ng-class="{danger: !vendor.enabled ,success:(vendor.enabled && (vendor.availableInventory > 0 )) }">
+                    <td>{{ vendor.supc }}</td>
+                    <td>{{ vendor.vendorCode }}</td>
+                    <td>{{ vendor.enabled }}</td>
+                    <td>{{ vendor.inventory }}</td>
+                    <td>{{ vendor.inventorySold }}</td>
+                    <td>{{ vendor.availableInventory }}</td>
+                    <td>{{ vendor.softDisable }}</td>
+                    <td>{{ vendor.comments }}</td>
+                    <td><a>{{ vendor.inventoryLastUpdated | date : 'fullDate' }}</a></td>
+                    <td>{{ vendor.pricingLastUpdated | date : 'fullDate' }}</td>
+                </tr>
+            </table>
+            </div>
+      </uib-accordion>
+      <uib-accordion close-others="true">
+            <div uib-accordion-group class="panel-default" heading="Attribute Details">
+            <table class="table table-striped table-bordered">
+                <tr>
+                    <th>Attribute Name</th>
+                    <th>Attribute Display Name</th>
+                    <th>Priority</th>
+                    <th>Value</th>
+                </tr>
+                <tr ng-repeat="attribute in product.attributes | orderBy: 'priority' " >
+                    <td>{{ attribute.attributeName }}</td>
+                    <td>{{ attribute.attributeDisplayName }}</td>
+                    <td>{{ attribute.priority }}</td>
+                    <td>{{ attribute.value }}</td>
+                </tr>
+            </table>
+            </div>
+      </uib-accordion>
+      <uib-accordion close-others="true">
+            <div uib-accordion-group class="panel-default" heading="Meta Data Details">
+            <table class="table table-striped table-bordered">
+                <tr>
+                    <th>Attribute Name</th>
+                    <th>Attribute Display Name</th>
+                    <th>Priority</th>
+                    <th>Value</th>
+                </tr>
+                <tr ng-repeat="metaData in product.metaDataList | orderBy: 'priority' " >
+                    <td>{{ metaData.attributeName }}</td>
+                    <td>{{ metaData.attributeDisplayName }}</td>
+                    <td>{{ metaData.priority }}</td>
+                    <td>{{ metaData.value }}</td>
+                </tr>
+            </table>
+            </div>
+      </uib-accordion>  
+      <uib-accordion close-others="true">
+            <div uib-accordion-group class="panel-default" heading="Filter Details">
+            <table class="table table-striped table-bordered">
+                <tr>
+                    <th>Name</th>
+                    <th>Filter Name</th>
+                    <th>Value</th>
+                </tr>
+                <tr ng-repeat="filter in product.filterValues " >
+                    <td>{{ filter.name }}</td>
+                    <td>{{ filter.filterName }}</td>
+                    <td>{{ filter.value }}</td>
+                </tr>
+            </table>
+            </div>
+      </uib-accordion>
+            
       </div>
    </div>
 </div>
+
+<style>
+.has-error {
+    color: red;
+    background-color: yellow;
+}</style>
